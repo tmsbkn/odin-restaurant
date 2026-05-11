@@ -4,5 +4,60 @@
     --color-dark-bg: #0F140D;
 }
 body{
-    background-color: grey;
+    background-color: var(--color-dark-bg);
+    color: hsl(0, 0%, 87%);
+    min-height: 100dvh;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+header{
+    background-color: var(--color-dark-brown);
+
+}
+header nav{
+    display: flex;
+    justify-content: center;
+}
+
+[data-page="home"]{
+    display: grid;
+    grid-template-rows: auto min(40vmax, 50vh) 1fr;
+}
+
+.button{
+        color: #eee;
+        padding: 1.25em 1em;
+        font-size: 1.2rem;
+        transition-property: filter ;
+        transition-duration: 0.5s;
+}
+.button:hover{
+    cursor: pointer;
+    filter: brightness(1.4);
+    background-color: var(--color-dark-brown);
+}
+.hero{
+    padding: 2em;
+    text-align: center;
+    background-color: var(--color-dark-brown);
+    background-image: linear-gradient(180deg, var(--color-dark-brown) 0%, var(--color-brown) 100%);
+}
+.hero-title{
+    font-size: 3rem;
+}
+.hero-text{
+    font-size: 1.5rem;
+}
+.hero-img{
+    overflow: hidden;
+    background-image: url(./img/bar.jpg);
+    background-size: cover ;
+    background-position: center;
+}
+footer{
+    padding: 1.25em;
+    text-align: center;
+    a{
+        color: inherit
+    }
 }
