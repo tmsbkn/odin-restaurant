@@ -1,16 +1,28 @@
-const newEl = (element) => {
+const newEl = (element, classes, ids) => {
    const node = document.createElement(element);
+   node.classList.add(classes);
+   node.setAttribute('id', ids);
    return node;
 };
 
-const home = newEl('div');
-home.setAttribute('id', 'home');
+const home = newEl('div', null, 'home');
 
-let hero = newEl('div');
-hero.className = 'hero';
-let heroTitle = newEl('h1');
+const hero = newEl('div', 'hero', null);
 
-home.append(hero);
+const heroTitle = newEl('h1', 'hero-title', null);
+heroTitle.textContent = 'The Wipes and Laps Pub';
+
+const address = newEl('span', 'hero-text');
+address.textContent = '123 Maple Park Blvd, Mapleville, ON';
+
+const established = newEl('span', 'hero-text');
+established.textContent = 'EST 2015';
+
+hero.append(address, heroTitle, established);
+let heroImg = newEl('div');
+heroImg.className = 'hero-img';
+
+home.append(hero, heroImg);
 export default home;
 //  <div id="content" data-page="home">
 //      <div class="hero">
