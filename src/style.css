@@ -19,7 +19,7 @@ header nav{
     justify-content: center;
 }
 
-[data-page="home"]{
+#home{
     display: grid;
     grid-template-rows: auto min(40vmax, 50vh) 1fr;
 }
