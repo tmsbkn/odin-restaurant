@@ -1,4 +1,8 @@
-
+:root{
+    --color-dark-brown: #1b1912;
+    --color-brown: #1d160a;
+    --color-dark-bg: #0F140D;
+}
 body{
     background-color: grey;
 }
