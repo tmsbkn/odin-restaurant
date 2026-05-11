@@ -1,9 +1,16 @@
-const home = document.createElement('div');
+const newEl = (element) => {
+   const node = document.createElement(element);
+   return node;
+};
+
+const home = newEl('div');
 home.setAttribute('id', 'home');
 
-let hero = document.createElement('div');
-
+let hero = newEl('div');
 hero.className = 'hero';
+let heroTitle = newEl('h1');
+
+home.append(hero);
 export default home;
 //  <div id="content" data-page="home">
 //      <div class="hero">
