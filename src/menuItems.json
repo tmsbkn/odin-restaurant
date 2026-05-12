@@ -1,0 +1,46 @@
+{
+   "name": "Wipes and Laps Menu",
+   "address": "123 Maple Park Blvd, Mapleville ON",
+   "items": [
+      {
+         "id": "soupOTD",
+         "name": "House Made Soup of the Day",
+         "price": "8",
+         "description": "",
+         "addOn": "Add toasted Baguette",
+         "addOnPrice": "1.50"
+      },
+      {
+         "id": "frenchSoup",
+         "name": "French Onion Soup",
+         "price": "10",
+         "description": "With melted Swiss cheese",
+         "addOn": "Add toasted Baguette",
+         "addOnPrice": "1.50"
+      },
+      {
+         "id": "squid",
+         "name": "Calamari",
+         "price": "18",
+         "description": "Lightly dusted calamari, jalapenos, and red peppers served with chipotle mayo dipping sauce",
+         "addOn": "",
+         "addOnPrice": ""
+      },
+      {
+         "id": "tacos",
+         "name": "Antojitos",
+         "price": "15",
+         "description": "A spicy blend of savoury cheese, jalapenos, green onions and red peppers. Wrapped and baked in a flour tortilla. Served with sour cream.",
+         "addOn": "Add Chicken",
+         "addOnPrice": "3"
+      },
+      {
+         "id": "springRolls",
+         "name": "Spring Rolls",
+         "price": "14",
+         "description": "With Thai sweet chili sauce",
+         "addOn": "",
+         "addOnPrice": ""
+      }
+   ]
+}
