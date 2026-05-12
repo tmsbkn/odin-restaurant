@@ -1,21 +1,20 @@
 import newEl from './elementClass.js';
 
-const about = newEl('div', null, 'home');
+const about = newEl('div', null, 'about');
 
-const hero = newEl('div', 'hero', null);
+const infoSection = newEl('div', 'info-section');
+const infoText = [
+   'The Wipes and Laps',
+   '123 Maple Park Blvd, Mapleville ON',
+   'Located behind the Big Box store',
+   '333-404-4311',
+];
 
-const heroTitle = newEl('h1', 'hero-title', null);
-heroTitle.textContent = 'The Wipes and Laps Pub';
+infoText.forEach((line) => {
+   const newLine = newEl('p');
+   newLine.textContent = line;
+   infoSection.append(newLine);
+});
 
-const address = newEl('span', 'hero-text');
-address.textContent = '123 Maple Park Blvd, Mapleville, ON';
-
-const established = newEl('span', 'hero-text');
-established.textContent = 'EST 2015';
-
-hero.append(address, heroTitle, established);
-let heroImg = newEl('div', 'hero-img');
-
-about.append(hero, heroImg);
-
+about.append(infoSection);
 export default about;
