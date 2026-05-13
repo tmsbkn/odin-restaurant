@@ -1,46 +1,213 @@
 {
    "name": "Wipes and Laps Menu",
    "address": "123 Maple Park Blvd, Mapleville ON",
-   "items": [
+   "menu": [
       {
-         "id": "soupOTD",
-         "name": "House Made Soup of the Day",
-         "price": "8",
-         "description": "",
-         "addOn": "Add toasted Baguette",
-         "addOnPrice": "1.50"
+         "name": "Soups & Starters",
+         "id": "soups",
+         "subtitle": "",
+         "items": [
+            {
+               "id": "soupOTD",
+               "name": "House Made Soup of the Day",
+               "price": "8",
+               "description": "",
+               "addOn": "Add toasted Baguette",
+               "addOnPrice": "1.50"
+            },
+            {
+               "id": "frenchSoup",
+               "name": "French Onion Soup",
+               "price": "10",
+               "description": "With melted Swiss cheese",
+               "addOn": "Add toasted Baguette",
+               "addOnPrice": "1.50"
+            },
+            {
+               "id": "squid",
+               "name": "Calamari",
+               "price": "18",
+               "description": "Lightly dusted calamari, jalapenos, and red peppers served with chipotle mayo dipping sauce",
+               "addOn": "",
+               "addOnPrice": ""
+            },
+            {
+               "id": "tacos",
+               "name": "Antojitos",
+               "price": "15",
+               "description": "A spicy blend of savoury cheese, jalapenos, green onions and red peppers. Wrapped and baked in a flour tortilla. Served with sour cream.",
+               "addOn": "Add Chicken",
+               "addOnPrice": "3"
+            },
+            {
+               "id": "springRolls",
+               "name": "Spring Rolls",
+               "price": "14",
+               "description": "With Thai sweet chili sauce",
+               "addOn": "",
+               "addOnPrice": ""
+            },
+            {
+               "id": "pierogies",
+               "name": "Cheese Filled Pierogies",
+               "price": "16",
+               "description": "Served with sour cream, caramelized onions, bacon and topped with green onions",
+               "addOn": "",
+               "addOnPrice": ""
+            },
+            {
+               "id": "mozzaSticks",
+               "name": "Breaded Mozza Sticks",
+               "price": "15",
+               "description": "Served with Marinara Sauce for dipping",
+               "addOn": "",
+               "addOnPrice": ""
+            },
+            {
+               "id": "poutine",
+               "name": "Poutine",
+               "price": "12",
+               "description": "Fries, Cheese Curds and Gravy",
+               "addOn": "",
+               "addOnPrice": ""
+            },
+            {
+               "id": "garlicBread",
+               "name": "Garlic Bread Extreme",
+               "price": "16",
+               "description": "Garlic bread loaded with Cheese and Bacon",
+               "addOn": "",
+               "addOnPrice": ""
+            },
+            {
+               "id": "spinDip",
+               "name": "Spinach & Artichoke Dip",
+               "price": "18",
+               "description": "Served with Naan bread and Nachos",
+               "addOn": "",
+               "addOnPrice": ""
+            },
+            {
+               "id": "pepFlatbread",
+               "name": "Pepperoni Flatbread",
+               "price": "17",
+               "description": "Pepperoni, mozzarella, tomato sauce, Hot Honey drizzle and fresh basil",
+               "addOn": "",
+               "addOnPrice": ""
+            },
+            {
+               "id": "bbqFlatbread",
+               "name": "BBQ Chicken Flatbread",
+               "price": "17",
+               "description": "Topped with BBQ sauce, mixed cheese, chicken, red peppers, red and green onions",
+               "addOn": "",
+               "addOnPrice": ""
+            },
+            {
+               "id": "pearFlatbread",
+               "name": "Pear & Blue Cheese Flatbread",
+               "price": "17",
+               "description": "Topped with bose pear, red onion, blue cheese and olive oil drizzle",
+               "addOn": "",
+               "addOnPrice": ""
+            },
+            {
+               "id": "curryFries",
+               "name": "Fries & Curry Sauce",
+               "price": "10",
+               "description": "Traditional curry sauce served with fries",
+               "addOn": "",
+               "addOnPrice": ""
+            },
+            {
+               "id": "bruschetta",
+               "name": "Bruschetta",
+               "price": "15",
+               "description": "Tomatoes, olive oil, onion, garlic, sea salt, basil, parsley, topped with feta cheese and balsamic glaze",
+               "addOn": "",
+               "addOnPrice": ""
+            },
+            {
+               "id": "samosa",
+               "name": "Samosas",
+               "price": "14",
+               "description": "Vegetable Samosas served with Chutney",
+               "addOn": "",
+               "addOnPrice": ""
+            }
+         ]
       },
       {
-         "id": "frenchSoup",
-         "name": "French Onion Soup",
-         "price": "10",
-         "description": "With melted Swiss cheese",
-         "addOn": "Add toasted Baguette",
-         "addOnPrice": "1.50"
+         "name": "Wings",
+         "id": "wing",
+         "subtitle": "",
+         "items": [
+            {
+               "id": "wings",
+               "name": "Chicken Wings",
+               "price": "8 wings 19 / 16 wings 36",
+               "description": "Lightly flour dusted with choice of sauce served with celery and carrot sticks, and blue cheese",
+               "addOn": "",
+               "addOnPrice": ""
+            }
+         ]
       },
       {
-         "id": "squid",
-         "name": "Calamari",
-         "price": "18",
-         "description": "Lightly dusted calamari, jalapenos, and red peppers served with chipotle mayo dipping sauce",
-         "addOn": "",
-         "addOnPrice": ""
+         "name": "Nachos",
+         "id": "nacho",
+         "subtitle": "",
+         "items": [
+            {
+               "id": "nachos",
+               "name": "The Wipes and Laps Nacho Plater",
+               "price": "28",
+               "description": "Corn tortilla chips topped with seasoned ground beef, diced tomatoes, red and green onions, three-cheese blend, served with tomato salsa, cheese con queso and sour cream",
+               "addOn": "Add Guacamole or Jalapenos",
+               "addOnPrice": "3"
+            }
+         ]
       },
       {
-         "id": "tacos",
-         "name": "Antojitos",
-         "price": "15",
-         "description": "A spicy blend of savoury cheese, jalapenos, green onions and red peppers. Wrapped and baked in a flour tortilla. Served with sour cream.",
-         "addOn": "Add Chicken",
-         "addOnPrice": "3"
+         "name": "Salads",
+         "id": "salad",
+         "subtitle": "",
+         "items": []
       },
       {
-         "id": "springRolls",
-         "name": "Spring Rolls",
-         "price": "14",
-         "description": "With Thai sweet chili sauce",
-         "addOn": "",
-         "addOnPrice": ""
+         "name": "Wings",
+         "id": "wing",
+         "subtitle": "",
+         "items": []
+      },
+      {
+         "name": "Sandwiches & Burgers",
+         "id": "sandwich",
+         "subtitle": "",
+         "items": []
+      },
+      {
+         "name": "Pipes and Taps Favorites",
+         "id": "entree",
+         "subtitle": "",
+         "items": []
+      },
+      {
+         "name": "Tacos",
+         "id": "taco",
+         "subtitle": "",
+         "items": []
+      },
+      {
+         "name": "Pasta",
+         "id": "pasta",
+         "subtitle": "",
+         "items": []
+      },
+      {
+         "name": "Dessert",
+         "id": "dessert",
+         "subtitle": "",
+         "items": []
       }
    ]
 }
