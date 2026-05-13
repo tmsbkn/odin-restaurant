@@ -17,23 +17,24 @@ hero.append(address, heroTitle, established);
 let heroImg = newEl('div', 'hero-img');
 const menuSection = newEl('section');
 
-menuItems.items.forEach((item, index) => {
-   const menuItem = newEl('div', 'menu-item', item.id);
-   const itemTitle = newEl('h3', 'item-title');
-   itemTitle.innerText = item.name;
-   const itemPrice = newEl('span', 'price');
-   itemPrice.innerText = item.price;
-   itemTitle.append(' ', itemPrice);
-   const itemDescription = newEl('p', 'item-description');
-   itemDescription.innerText = item.description;
-   const itemAddon = newEl('p', 'add-on');
-   itemAddon.innerText = item.addOn;
-   const itemAddonPrice = newEl('span', 'add-on-price');
-   itemAddonPrice.innerText = item.addOnPrice;
-   itemAddon.append(' ', itemAddonPrice);
+menuItems.menu.forEach((category, index) => {
+   const cat = newEl('div', 'category', category.id);
+   const catHeading = newEl('h2', 'catHeading');
+   catHeading.textContent = category.name;
+   category.items.forEach((item, index) => {
+      const menuItem = newEl('div', 'item', item.id);
+      const heading = newEl('h3', 'item-name');
+      const price = newEl('span', 'price');
+      const description = newEl('p', 'item-description');
+      description.textContent = item.description;
+      heading.textContent = item.name;
+      price.textContent = item.price;
+      heading.append(' ', price);
+      menuItem.append(heading, description);
+      cat.append(menuItem);
+   });
 
-   menuItem.append(itemTitle, itemDescription, itemAddon);
-   menuSection.append(menuItem);
+   menuSection.append(catHeading, cat);
 });
 menu.append(hero, menuSection);
 
