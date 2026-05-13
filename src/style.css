@@ -54,6 +54,32 @@ header nav{
     background-size: cover ;
     background-position: center;
 }
+.main{
+    display: grid;
+    justify-content: center;
+}
+section{
+    padding: 2em;
+    max-width: 900px;
+    margin: auto;
+}
+.catHeading{
+    text-align: center;
+    font-size: 2rem;
+    color: goldenrod;
+}
+.category{
+    margin-top: 1em;
+    margin-bottom: 2em;
+    column-count: 2;
+    column-width: 40ch;
+    gap: 2em;
+}
+.item{
+    break-inside: avoid;
+    margin-bottom: 1em;
+}
+
 footer{
     padding: 1.25em;
     text-align: center;

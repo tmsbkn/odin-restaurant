@@ -1,5 +1,8 @@
 import newEl from './elementClass.js';
 import menuItems from './menuItems.json' assert { type: 'json' };
+
+const menuWrapper = newEl('div', 'pageWrapper');
+
 const menu = newEl('div', 'main', 'menu');
 
 const hero = newEl('div', 'hero');
@@ -36,6 +39,7 @@ menuItems.menu.forEach((category, index) => {
 
    menuSection.append(catHeading, cat);
 });
-menu.append(hero, menuSection);
+menu.append(menuSection);
+menuWrapper.append(hero, menu);
 
-export default menu;
+export default menuWrapper;
