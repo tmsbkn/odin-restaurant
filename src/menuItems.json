@@ -170,44 +170,332 @@
       {
          "name": "Salads",
          "id": "salad",
-         "subtitle": "",
-         "items": []
-      },
-      {
-         "name": "Wings",
-         "id": "wing",
-         "subtitle": "",
-         "items": []
+         "subtitle": "Add Grilled 8oz AAA Sirloin Steak 10 or Grilled Chicken Breast 7",
+         "items": [
+            {
+               "id": "gardenSalad",
+               "name": "Mixed Garden Greens",
+               "price": "12",
+               "description": "Mixed greens tossed with cherry tomatoes, cucumber, red onion, red peppers and your choice of dressing",
+               "addOn": "Add Feta or Goat cheese",
+               "addOnPrice": "2"
+            },
+            {
+               "id": "cobbSalad",
+               "name": "Cobb Salad",
+               "price": "23",
+               "description": "Chopped romaine, grilled chicken ( or Tofu) bacon, tomato, avocado, cucumber,red onion,egg and blue cheese crumble and dressing",
+               "addOn": "",
+               "addOnPrice": ""
+            },
+            {
+               "id": "spinachSalad",
+               "name": "Spinach Salad",
+               "price": "17",
+               "description": "Baby spinach and mixed greens with beets, red onion, cherry tomatoes, sliced apple, candied walnuts, goat cheese and honey Dijon dressing",
+               "addOn": "",
+               "addOnPrice": ""
+            },
+            {
+               "id": "powerBowl",
+               "name": "Wipes Power Bowl",
+               "price": "20",
+               "description": "Quinoa, black bean, chick peas, sweet corn, roasted tofu, cucumber, tomato, avocado, red onion drizzled with cilantro lime and lemon honey vinaigrette",
+               "addOn": "",
+               "addOnPrice": ""
+            },
+            {
+               "id": "caesarSalad",
+               "name": "Traditional Caesar Salad",
+               "price": "15",
+               "description": "Chopped romaine leaves tossed with smoked bacon, herbed croutons ,Parmesan cheese and creamy Caesar dressing",
+               "addOn": "",
+               "addOnPrice": ""
+            },
+            {
+               "id": "greekSalad",
+               "name": "Greek Salad",
+               "price": "15",
+               "description": "Chopped romaine and mixed greens with cucumbers, tomatoes, peppers, red onions, olives, feta cheese and Greek vinaigrette",
+               "addOn": "",
+               "addOnPrice": ""
+            }
+         ]
       },
       {
          "name": "Sandwiches & Burgers",
          "id": "sandwich",
-         "subtitle": "",
-         "items": []
+         "subtitle": "ALL SANDWICHES, BURGERS AND WRAPS ARE SERVED WITH YOUR CHOICE OF: FRENCH FRIES, WAFFLE FRIES, KETTLE CHIPS, MIXED GREENS, OR SOUP OF THE DAY SUBSTITUTE : SWEET POTATO FRIES, ONION SINGS, CAESAR SALAD OR GREEK SALAD",
+         "items": [
+            {
+               "id": "roastBeef",
+               "name": "Roast Beef Sandwich",
+               "price": "20",
+               "description": "Thinly sliced beef, au jus with caramelized onions on a toasted ciabatta bun",
+               "addOn": "Add Swiss cheese",
+               "addOnPrice": "2"
+            },
+            {
+               "id": "clubSandwich",
+               "name": "Toasted Club House Sandwich",
+               "price": "20",
+               "description": "Roasted in house turkey breast, bacon, tomatoes, lettuce and mayo Your choice of white, multigrain or marble rye bread",
+               "addOn": "Add Cheddar",
+               "addOnPrice": "2"
+            },
+            {
+               "id": "pastramiSandwich",
+               "name": "Pastrami on Rye",
+               "price": "20",
+               "description": "Deli sliced pastrami on marble rye bread topped with coleslaw, remoulade, crispy onions and swiss cheese",
+               "addOn": "",
+               "addOnPrice": ""
+            },
+            {
+               "id": "buffaloWrap",
+               "name": "Buffalo Chicken Tortilla Wrap",
+               "price": "20",
+               "description": "Breaded chicken tenders tossed in Buffalo butter sauce with lettuce, diced tomatoes,shredded cheese and ranch dressing, vegetarian option available",
+               "addOn": "",
+               "addOnPrice": ""
+            },
+            {
+               "id": "hotChickenSandwich",
+               "name": "Northern Heat Chicken Sandwich",
+               "price": "20",
+               "description": "Crunchy fried chicken breast , with Northern Heat hot sauce, coleslaw and bacon on a brioche bun",
+               "addOn": "Add your choice of cheese",
+               "addOnPrice": "2"
+            },
+            {
+               "id": "pipeBurger",
+               "name": "The Pipes and Taps Burger",
+               "price": "21",
+               "description": "With lettuce, tomato, crispy onions, smoked Gouda cheese and sun-dried tomato aioli",
+               "addOn": "",
+               "addOnPrice": ""
+            },
+            {
+               "id": "bigBBurger",
+               "name": "The Big B Burger",
+               "price": "21",
+               "description": "With lettuce, tomato, red onion, smoked bacon and cheddar cheese",
+               "addOn": "",
+               "addOnPrice": ""
+            },
+            {
+               "id": "baconBurger",
+               "name": "Wipes Blue & Bacon Burger",
+               "price": "21",
+               "description": "With blue cheese, smoked bacon, lettuce and onions",
+               "addOn": "",
+               "addOnPrice": ""
+            },
+            {
+               "id": "mushroomBurger",
+               "name": "Mushroom Swiss Burger",
+               "price": "21",
+               "description": "With lettuce, sauteed mushrooms , and Swiss Gruyere cheese",
+               "addOn": "",
+               "addOnPrice": ""
+            },
+            {
+               "id": "turkeyBurger",
+               "name": "Grilled Turkey Burger",
+               "price": "21",
+               "description": "House made grilled turkey burger with goat cheese, tomato, crispy onions, lettuce, drizzled with balsamic glaze",
+               "addOn": "21",
+               "addOnPrice": ""
+            },
+            {
+               "id": "vegBurger",
+               "name": "Veggie Burger",
+               "price": "20",
+               "description": "Grilled vegetable burger with pico de gallo,cilantro lime and lemon honey vinaigrette",
+               "addOn": "",
+               "addOnPrice": ""
+            }
+         ]
       },
       {
          "name": "Pipes and Taps Favorites",
          "id": "entree",
          "subtitle": "",
-         "items": []
+         "items": [
+            {
+               "id": "",
+               "name": "Haddock Fish and Chips",
+               "price": "22",
+               "description": "Battered haddock fillet served with fries, creamy and house made tartar sauce",
+               "addOn": "",
+               "addOnPrice": ""
+            },
+            {
+               "id": "",
+               "name": "Traditional Bangers and Mash",
+               "price": "22",
+               "description": "Bangers with caramelized onions, served with mashed potatoes and vegetables",
+               "addOn": "",
+               "addOnPrice": ""
+            },
+            {
+               "id": "",
+               "name": "Pork Back Ribs with BBQ Sauce",
+               "price": "",
+               "description": "Tender Pork Back Ribs, served with Coleslaw and Fries",
+               "addOn": "Full Rack 28 Half Rack 15",
+               "addOnPrice": ""
+            },
+            {
+               "id": "",
+               "name": "Chicken Pot Pie",
+               "price": "18",
+               "description": "Chicken and vegetables simmered in a butter cream sauce, served with your choice of side",
+               "addOn": "",
+               "addOnPrice": ""
+            },
+            {
+               "id": "",
+               "name": "Chicken Quesadilla",
+               "price": "21",
+               "description": "Grilled chicken breast with bbg sauce, cheese, tomatoes, green onions, caramelized onions. Served with salsa and sour cream, and your choice of side",
+               "addOn": "Gluten free wrap and vegetarian option available",
+               "addOnPrice": ""
+            },
+            {
+               "id": "",
+               "name": "Chicken Tenders",
+               "price": "20",
+               "description": "Crispy chicken breast tenders served with plum sauce or tossed in your choice of sauce and your choice of side",
+               "addOn": "",
+               "addOnPrice": ""
+            },
+            {
+               "id": "",
+               "name": "Green Thai Chicken Curry",
+               "price": "22",
+               "description": "Chicken in a green Thai coconut curry sauce with vegetables, basmati rice and grilled naan bread",
+               "addOn": "Vegetarian",
+               "addOnPrice": "16"
+            },
+            {
+               "id": "",
+               "name": "Steak & Mushroom Stew",
+               "price": "22",
+               "description": "Tender beef and mushroom stew served with mashed potatoes and peas",
+               "addOn": "",
+               "addOnPrice": ""
+            },
+            {
+               "id": "",
+               "name": "Pan-Seared Provimi Calf's Liver",
+               "price": "25",
+               "description": "Caramelized onions, smoked bacon, served with mashed potatoes vegetables and gravy",
+               "addOn": "",
+               "addOnPrice": ""
+            },
+            {
+               "id": "",
+               "name": "Butter Chicken",
+               "price": "20",
+               "description": "Savory butter chicken served over a bed of basmati rice and peas with naan bread",
+               "addOn": "",
+               "addOnPrice": ""
+            }
+         ]
       },
       {
          "name": "Tacos",
          "id": "taco",
          "subtitle": "",
-         "items": []
+         "items": [
+            {
+               "id": "",
+               "name": "Fish Tacos (2 Tacos)",
+               "price": "20",
+               "description": "Crispy haddock fillet with creamy coleslaw, house made remoulade sauce in a soft taco shell, served with your choice of side",
+               "addOn": "",
+               "addOnPrice": ""
+            },
+            {
+               "id": "",
+               "name": "Grilled Chicken Tacos (2 Tacos)",
+               "price": "20",
+               "description": "Taco seasoned grilled chicken, shredded lettuce, shredded cheese, pico de gallo, lime aioli in a soft taco shell, served with your choice of side",
+               "addOn": "",
+               "addOnPrice": ""
+            }
+         ]
       },
       {
          "name": "Pasta",
          "id": "pasta",
          "subtitle": "",
-         "items": []
+         "items": [
+            {
+               "id": "chickenPasta",
+               "name": "Andrew's Chicken Penne",
+               "price": "23",
+               "description": "Penne noodles tossed with grilled breast of chicken, sun-dried tomatoes, diced tomatoes, jalapenos, basil and white wine cream sauce",
+               "addOn": "",
+               "addOnPrice": ""
+            }
+         ]
       },
       {
-         "name": "Dessert",
+         "name": "Dessert 10",
          "id": "dessert",
          "subtitle": "",
-         "items": []
+         "items": [
+            {
+               "id": "",
+               "name": "Chocolate Fudge Cake",
+               "price": "",
+               "description": "",
+               "addOn": "",
+               "addOnPrice": ""
+            },
+            {
+               "id": "",
+               "name": "Carrot Cake",
+               "price": "",
+               "description": "",
+               "addOn": "",
+               "addOnPrice": ""
+            },
+            {
+               "id": "",
+               "name": "Apple Crisp",
+               "price": "",
+               "description": "",
+               "addOn": "",
+               "addOnPrice": ""
+            },
+            {
+               "id": "",
+               "name": "Manhattan Cheesecake",
+               "price": "",
+               "description": "",
+               "addOn": "",
+               "addOnPrice": ""
+            },
+            {
+               "id": "",
+               "name": "Sticky Toffee Pudding",
+               "price": "",
+               "description": "",
+               "addOn": "",
+               "addOnPrice": ""
+            },
+            {
+               "id": "",
+               "name": "Turtle Cheesecake",
+               "price": "Gluten Free",
+               "description": "",
+               "addOn": "",
+               "addOnPrice": ""
+            }
+         ]
       }
    ]
 }
