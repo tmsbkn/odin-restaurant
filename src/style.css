@@ -4,6 +4,7 @@
     --color-dark-bg: #0F140D;
 }
 body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     background-color: var(--color-dark-bg);
     color: hsl(0, 0%, 87%);
     min-height: 100dvh;
