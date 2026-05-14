@@ -59,9 +59,9 @@ header nav{
     display: grid;
     justify-content: center;
 }
-section{
+section, #about{
     padding: 2em;
-    max-width: 900px;
+    max-width: 1400px;
     margin: auto;
 }
 .catHeading{
@@ -73,14 +73,47 @@ section{
     margin-top: 1em;
     margin-bottom: 2em;
     column-count: 2;
-    column-width: 40ch;
-    gap: 2em;
+    column-width: 45ch;
+    gap: 3em;
+}
+#wing, #nacho, #pasta{
+    column-count: 1;
+    text-align: center;
+    max-width: 50ch;
+    margin: auto;
+}
+#dessert{
+    text-align: center;
+}
+#dessert .item{
+       margin-bottom: 0.1em;
 }
 .item{
     break-inside: avoid;
     margin-bottom: 1em;
+    font-size: 1.1rem;
+    transition-property: scale;
+    transition-duration: 0.3s;
 }
 
+.item:hover{
+    scale: 1.05;
+}
+.item-name{
+    color: goldenrod;
+    text-transform: uppercase;
+    display: inline;
+}
+.item-name span{
+
+    display: inline-block;
+}
+.item-description{
+    text-wrap: balance;
+}
+.info-section{
+    font-size: 2em;
+}
 footer{
     padding: 1.25em;
     text-align: center;
